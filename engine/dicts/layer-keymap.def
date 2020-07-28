@@ -1,0 +1,16 @@
+// Thumb Keys
+PRES(GL, KC_LSFT)
+PRES(GR, KC_SPC)
+  
+// Layer Switches 
+// To Number
+SPEC(      GA | GT | GN | GP, SPEC_STICKY, NUM)
+SPEC(NUM | GA | GT | GN | GP, SPEC_STICKY, NUM)
+SPEC(CMD | GA | GT | GN | GP, SPEC_STICKY, NUM)
+SPEC(USR | GA | GT | GN | GP, SPEC_STICKY, NUM)
+
+// To Command
+SPEC(      GS | GE | GI | GO, SPEC_STICKY, CMD)
+SPEC(NUM | GS | GE | GI | GO, SPEC_STICKY, CMD)
+SPEC(CMD | GS | GE | GI | GO, SPEC_STICKY, CMD)
+SPEC(USR | GS | GE | GI | GO, SPEC_STICKY, CMD)

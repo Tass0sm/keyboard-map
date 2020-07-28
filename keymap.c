@@ -36,7 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_truefox( \
     KC_ESC, KC_A,   KC_S,    KC_E,    KC_T,    KC_L,    KC_R,    KC_N,    KC_I,    KC_O,    KC_P,    KC_MINS, KC_EQL,  KC_BSLS, KC_GRV,  KC_PSCR, \
     KC_TAB, KC_A,   KC_S,    KC_E,    KC_T,    KC_L,    KC_R,    KC_N,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSPC,          KC_DEL,  \
-    KC_F,   KC_A,   KC_S,    KC_E,    KC_T,    KC_L,    KC_R,    KC_N,    KC_I,    KC_O,    KC_P,    KC_QUOT,          KC_ENT,           KC_PGUP, \
+    KC_F,   KC_A,   KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,          KC_ENT,           KC_PGUP, \
     KC_LSFT,        KC_A,    KC_S,    KC_E,    KC_T,    KC_L,    KC_R,    KC_N,    KC_I,    KC_O,    KC_P,    KC_F,             KC_UP,   KC_PGDN, \
     KC_LCTL,KC_LGUI,KC_LALT,                            KC_SPC,                    KC_RALT, KC_F,                      KC_LEFT, KC_DOWN, KC_RGHT \
   )
